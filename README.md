@@ -1,12 +1,12 @@
-# [Project Name] 🎯
+# [INTERNHUB] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: []
 
 
 ### Team Members
-- Member 1: [Name] - [College]
+- Member 1: [Thamanna parveeen] - [sree narayana gurukulam college of engineering,kadayiripp]
 - Member 2: [Name] - [College]
 - Member 3: [Name] - [College]
 
@@ -14,18 +14,18 @@
 [mention your project hosted project link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+[Find internships, explore companies, and apply directly through our platform.]
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+[ platform for finding students internship offers and part time job opportunities?]
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+[creating a website which connects students and recent graduates with internship opportunities,this increase accessibility to internship opportunities also provide resources and support for internship seekers]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
+- [HTML CSS]
 - [Frameworks used]
 - [Libraries used]
 - [Tools used]
@@ -36,7 +36,7 @@ For Hardware:
 - [List tools required]
 
 ### Implementation
-For Software:
+For Software:visual studio
 # Installation
 [commands]
 
