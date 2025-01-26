@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head> 
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Portal</title>
+    <style>
+    <body>
+    <header>
+        <h1>INTERN-HUB</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#search">Search</a>
+        <a href="#internships">Internships</a>
+        <a href="#companies">Companies</a>
+    </nav>
+
+    <div class="container hero-section" id="home">
+        <h1>Welcome to the Internship Portal</h1>
+        <p>Your gateway to endless career opportunities. Explore internships, connect with top companies, and take your first step toward success.</p>
+        <button>Get Started</button>
+    </div>
+
+    <div class="container highlights">
+        <div class="highlight-card">
+            <img src="search-icon.png" alt="Search Icon">
+            <h3>Search Internships</h3>
+            <p>Find the best internships tailored to your skills and preferences.</p>
+        </div>
+        <div class="highlight-card">
+            <img src="company-icon.png" alt="Company Icon">
+            <h3>Explore Companies</h3>
+            <p>Discover companies and learn about their work culture and projects.</p>
+        </div>
+        <div class="highlight-card">
+            <img src="apply-icon.png" alt="Apply Icon">
+            <h3>Apply Easily</h3>
+            <p>Submit your applications quickly and track your progress with ease.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Join Intern Hub</h2>
+        <button style="background-color: #007BFF; color: white; padding: 15px 30px; font-size: 1rem; border-radius: 8px; margin-top: 10px;">Join Now</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Internship Portal. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+<div class="container" id="part-time-jobs">
+    <h2>Part-Time Job Opportunities</h2>
+
+    <div class="job-card flex">
+        <img src="logo-placeholder.png" alt="Company Logo">
+        <div class="card-content">
+            <h3>Customer Service Associate</h3>
+            <p>Company: RetailSolutions</p>
+            <p>Description: Assist customers in-store and manage daily sales activities.</p>
+            <p>Hours: 20-25 hours/week</p>
+            <button>Apply Now</button>
+        </div>
+    </div>
+
+    <div class="job-card flex">
+        <img src="logo-placeholder.png" alt="Company Logo">
+        <div class="card-content">
+            <h3>Content Writer</h3>
+            <p>Company: WritePro</p>
+            <p>Description: Create engaging content for blogs, websites, and social media.</p>
+            <p>Hours: Flexible</p>
+            <button>Apply Now</button>
+        </div>
+    </div>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #dcf0dc;
+            color: rgb(7, 6, 6);
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .internship-card, .company-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .internship-card img, .company-card img {
+            max-width: 100px;
+            display: block;
+        }
+
+        .card-content {
+            margin-left: 120px;
+        }
+
+        .flex {
+            display: flex;
+            align-items: center;
+        }
+
+        button {
+            background-color: #e2efe3;
+            color: rgb(18, 15, 15);
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .search-bar input, .search-bar select {
+            padding: 10px;
+            margin: 0 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .search-bar button {
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Internship Portal</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#search">Search</a>
+        <a href="#internships">Internships</a>
+        <a href="#companies">Companies</a>
+    </nav>
+
+    <div class="container" id="home">
+        <h2>Welcome to the Internship Portal</h2>
+        <p>Find internships, explore companies, and apply directly through our platform.</p>
+    </div>
+
+    <div class="container" id="search">
+        <h2>Search Internships</h2>
+        <div class="search-bar">
+            <input type="text" placeholder="Search by title or company">
+            <select>
+                <option value="">Select Category</option>
+                <option value="tech">Tech</option>
+                <option value="marketing">Marketing</option>
+                <option value="finance">Finance</option>
+            </select>
+            <button>Search</button>
+        </div>
+    </div>
+
+    <div class="container" id="internships">
+        <h2>Available Internships</h2>
+
+        <div class="internship-card flex">
+            <img src="logo-placeholder.png" alt="Company Logo">
+            <div class="card-content">
+                <h3>Software Engineer Intern</h3>
+                <p>Company: TechCorp</p>
+                <p>Description: Work on exciting projects as a software engineer intern.</p>
+                <button>Apply Now</button>
+            </div>
+        </div>
+
+        <div class="internship-card flex">
+            <img src="logo-placeholder.png" alt="Company Logo">
+            <div class="card-content">
+                <h3>Marketing Intern</h3>
+                <p>Company: MarketMasters</p>
+                <p>Description: Assist in creating marketing campaigns and strategies.</p>
+                <button>Apply Now</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="companies">
+        <h2>Featured Companies</h2>
+
+        <div class="company-card flex">
+            <img src="logo-placeholder.png" alt="Company Logo">
+            <div class="card-content">
+                <h3>TechCorp</h3>
+                <p>Description: Leading technology company offering innovative solutions.</p>
+                <button>View Profile</button>
+            </div>
+        </div>
+
+        <div class="company-card flex">
+            <img src="logo-placeholder.png" alt="Company Logo">
+            <div class="card-content">
+                <h3>MarketMasters</h3>
+                <p>Description: Experts in marketing and advertising strategies.</p>
+                <button>View Profile</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Internship Portal. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+
+<nav>
+    <a href="#home" id="home-icon">Home</a>
+    <div id="auth-dropdown" class="dropdown hidden">
+        <div class="auth-tabs">
+            <button onclick="showAuthForm('login')" class="auth-tab active">Login</button>
+            <button onclick="showAuthForm('signup')" class="auth-tab">Sign Up</button>
+        </div>
+        <!-- Login Form -->
+        <div id="login-form" class="auth-form">
+            <h3>Login</h3>
+            <form>
+                <label for="login-email">Email:</label>
+                <input type="email" id="login-email" name="login-email" placeholder="Enter your email" required><br>
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" name="login-password" placeholder="Enter your password" required><br>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        <!-- Sign-Up Form -->
+        <div id="signup-form" class="auth-form hidden">
+            <h3>Sign Up</h3>
+            <form>
+                <label for="signup-name">Name:</label>
+                <input type="text" id="signup-name" name="signup-name" placeholder="Enter your name" required><br>
+                <label for="signup-email">Email:</label>
+                <input type="email" id="signup-email" name="signup-email" placeholder="Enter your email" required><br>
+                <label for="signup-password">Password:</label>
+                <input type="password" id="signup-password" name="signup-password" placeholder="Create a password" required><br>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+</nav>
+<style>
+    /* Dropdown Styling */
+    .dropdown {
+        position: absolute;
+        top: 50px;
+        right: 20px;
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        width: 300px;
+        padding: 20px;
+        z-index: 100;
+    }
+
+    .dropdown.hidden {
+        display: none;
+    }
+
+    .auth-tabs {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .auth-tab {
+        padding: 10px;
+        cursor: pointer;
+        border: none;
+        background-color: #f1f1f1;
+        flex: 1;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .auth-tab.active {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    .auth-form {
+        margin-top: 10px;
+    }
+
+    .auth-form input,
+    .auth-form button {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    .auth-form button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .auth-form button:hover {
+        background-color: #45a049;
+    }
+
+    .auth-form.hidden {
+        display: none;<div class="container hero-section" id="home" style="background: url('hero-background.jpg') center/cover; color: white; text-align: center; padding: 50px 20px; border-radius: 10px;">
+    <h1 style="font-size: 3rem; margin-bottom: 20px;">Welcome to the Internship Portal</h1>
+    <p style="font-size: 1.2rem; margin-bottom: 30px;">Your gateway to endless career opportunities. Explore internships, connect with top companies, and take your first step toward success.</p>
+    <button style="font-size: 1rem; padding: 10px 20px; background-color: #ff5733; color: white; border: none; border-radius: 5px; cursor: pointer;">
+        Get Started
+    </button>
+</div>
+
+<div class="container highlights" style="margin-top: 30px; display: flex; justify-content: space-around; text-align: center;">
+    <div class="highlight-card" style="width: 30%; padding: 20px; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+        <img src="search-icon.png" alt="Search Icon" style="max-width: 50px; margin-bottom: 10px;">
+        <h3>Search Internships</h3>
+        <p>Find the best internships tailored to your skills and preferences.</p>
+    </div>
+    <div class="highlight-card" style="width: 30%; padding: 20px; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+        <img src="company-icon.png" alt="Company Icon" style="max-width: 50px; margin-bottom: 10px;">
+        <h3>Explore Companies</h3>
+        <p>Discover companies and learn about their work culture and projects.</p>
+    </div>
+    <div class="highlight-card" style="width: 30%; padding: 20px; background-color: #f9f9f9; border-radius: 8px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);">
+        <img src="apply-icon.png" alt="Apply Icon" style="max-width: 50px; margin-bottom: 10px;">
+        <h3>Apply Easily</h3>
+        <p>Submit your applications quickly and track your progress with ease.</p>
+    </div>
+</div>
+
+    }
+</style>
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internship Portal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #fdfbfb, #ebedee);
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        nav a:hover {
+            background-color: #555;
+            color: white;
+            transform: scale(1.05);
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .internship-card, .company-card {
+            border: none;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .internship-card:hover, .company-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        button:hover {
+            background-color: #45a049;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 0.9rem;
+        }
+
+        .hero-section {
+            background: rgba(0, 0, 0, 0.5) url('hero-background.jpg') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .hero-section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .hero-section p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        .hero-section button {
+            font-size: 1rem;
+            padding: 12px 25px;
+            background-color: #ff5733;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .hero-section button:hover {
+            background-color: #e14a2a;
+        }
+
+        .highlight-card {
+            width: 30%;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .highlight-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        .highlight-card img {
+            max-width: 50px;
+            margin-bottom: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .highlight-card {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            nav {
+                flex-wrap: wrap;
+            }
+
+            nav a {
+                flex: 1 1 100%;
+                text-align: center;
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>INTERN-HUB</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#search">Search</a>
+        <a href="#internships">Internships</a>
+        <a href="#companies">Companies</a>
+    </nav>
+
+    <div class="container hero-section" id="home">
+        <h1>Welcome to the Internship Portal</h1>
+        <p>Your gateway to endless career opportunities. Explore internships, connect with top companies, and take your first step toward success.</p>
+        <button>Get Started</button>
+    </div>
+
+    <div class="container highlights">
+        <div class="highlight-card">
+            <img src="search-icon.png" alt="Search Icon">
+            <h3>Search Internships</h3>
+            <p>Find the best internships tailored to your skills and preferences.</p>
+        </div>
+        <div class="highlight-card">
+            <img src="company-icon.png" alt="Company Icon">
+            <h3>Explore Companies</h3>
+            <p>Discover companies and learn about their work culture and projects.</p>
+        </div>
+        <div class="highlight-card">
+            <img src="apply-icon.png" alt="Apply Icon">
+            <h3>Apply Easily</h3>
+            <p>Submit your applications quickly and track your progress with ease.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Join Intern Hub</h2>
+        <button style="background-color: #007BFF; color: white; padding: 15px 30px; font-size: 1rem; border-radius: 8px; margin-top: 10px;">Join Now</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Internship Portal. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+<div class="container" id="part-time-jobs">
+    <h2>Part-Time Job Opportunities</h2>
+
+    <div class="job-card flex">
+        <img src="logo-placeholder.png" alt="Company Logo">
+        <div class="card-content">
+            <h3>Customer Service Associate</h3>
+            <p>Company: RetailSolutions</p>
+            <p>Description: Assist customers in-store and manage daily sales activities.</p>
+            <p>Hours: 20-25 hours/week</p>
+            <button>Apply Now</button>
+        </div>
+    </div>
+
+    <div class="job-card flex">
+        <img src="logo-placeholder.png" alt="Company Logo">
+        <div class="card-content">
+            <h3>Content Writer</h3>
+            <p>Company: WritePro</p>
+            <p>Description: Create engaging content for blogs, websites, and social media.</p>
+            <p>Hours: Flexible</p>
+            <button>Apply Now</button>
+        </div>
+    </div>
+
+    
+
