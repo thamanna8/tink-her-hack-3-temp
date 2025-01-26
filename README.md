@@ -50,7 +50,7 @@ For Software:
 ![Screenshot1]([Add screenshot 1 here with proper name](https://github.com/thamanna8/tink-her-hack-3-temp/blob/main/Screenshot%20(1).png))
 *Add caption explaining what this shows*
 
-![Screenshot2](Add screenshot 2 here with proper name)
+![Screenshot2]([Add screenshot 2 here with proper name](https://github.com/thamanna8/tink-her-hack-3-temp/blob/main/Screenshot%20(2).png))
 *Add caption explaining what this shows*
 
 ![Screenshot3](Add screenshot 3 here with proper name)
